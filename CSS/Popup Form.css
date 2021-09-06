@@ -1,0 +1,66 @@
+body{font-family: Verdana, Geneva, Tahoma, sans-serif;}
+* {box-sizing:border-box;}
+
+.open-button {
+    background-color: #555;
+    color: white;
+    padding: 16px 25px;
+    border: none;
+    cursor: pointer; 
+    opacity: 0.8;
+
+}
+
+.form-popup {
+    display: none;
+    position: fixed;
+    bottom:auto
+    right: 15px;
+    border: 3px solid blue;
+    z-index: 9;
+    top: 20%;
+
+}
+
+.form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: white;
+
+}
+
+ input[type=text],input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+}
+
+/* When input get focus to do something */
+input[type=text],input[type=password]:focus {
+    background-color: rgb(202, 202, 164);
+    outline: none;
+}
+
+/* set style for the log in button */
+.btn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 10px;
+    opacity: 0.8;
+}
+ /* add background color for cancel button */
+ .cancel {
+     background-color: red;
+
+ }
+ /* add hover effect for button  */
+ .btn:hover ,.open-button:hover {
+     opacity: 1;
+ }
+ 
